@@ -1,0 +1,140 @@
+author: 보노막투
+
+keywords: Hexo, Theme-AD
+
+description: 보노막투의 기술블로그
+
+# Navigation bar header name
+nav_name: bonobono.net
+
+motto: "보노막투의超비주류기술블로그"
+
+github: "https://github.com/bonomk2/"
+
+favicon: 
+  icon: /images/profile.png
+  touch_icon: /images/touch-icon.png
+
+# RSS file location
+rss:
+
+# Custom style file
+custom_styles: 
+
+# Custom script file
+custom_scripts: 
+
+# Code highlighting them: normal | night | night blue | night bright | night eighties
+highlight_theme: "night eighties"
+
+# Turn on math formula rendering
+mathjax: true
+
+copyright:
+  enable: false
+  author: "bonomk2"
+  show_link: true
+  more: '© All rights reserved.'
+
+# time format：YYYY-MM-DD
+start_time: "2019-06-28"
+
+# How to open the Comments & Statistics plugin：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
+# Please apply your own appid and appkey and replace the appid and appkey below
+leancloud:
+  appid:
+  appkey:
+  comment: false
+  count: false
+
+# Need to ensure that leancloud.count is true
+welcome: 
+  enable: false
+  interval: 30
+
+# Need to ensure that leancloud.comment is false
+disqus: 
+  enable: true
+  id: bonobono-net
+
+# Need to ensure that leancloud.count is false
+busuanzi: false
+
+# Store sha256 encrypted password
+# Have read access to all locked articles
+passwords: 
+  - 7E1F6807FAA6B2C55B7AC75C559A5A12587A028DD9F363891FBD3595347FC40A
+
+share:
+  twitter: false
+  facebook: false
+  weibo: false
+  qq: false
+  wechat: false
+
+analytics:
+  baidu:
+    enable: false
+  google:
+    enable: true
+    id: UA-142121646-1
+  "360":
+    enable: false
+    id: 
+
+# Reward pictures
+# reward:
+  # -
+  #   src: /images/wechat.png
+  #   alt: "WeChat"
+  # -
+  #   src: /images/alipay.png
+  #   alt: "AliPay"
+
+# CDN address of third-party library
+# Please decide whether to replace it with domestic CDN according to the situation.
+cdn: 
+  # leancloud: "//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"
+  mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+  # valine: "//unpkg.com/valine/dist/Valine.min.js"
+  # busuanzi: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+  font_awesome: "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+
+nav:
+  -
+    name: "Home"
+    path: "/"
+  -
+    name: "About"
+    path: "/about/"
+  -
+    name: "Categories"
+    path: "/categories/"
+  -
+    name: "Archives"
+    path: "/archives/"
+  -
+    name: "Tags"
+    path: "/tags/"
+
+footer:
+  - 
+    title: "Links"
+    children:
+      - 
+        name: "instagram"
+        path: "https://www.instagram.com/bonomk2/"
+      - 
+        name: "facebook"
+        path: "https://www.facebook.com/jjun97"
+
+footer_contact: "Email: me@bonobono.net"
+
+# friends_avatar_cdn: 
+# friends:
+#   -
+#     nickname: GodBMW
+#     avatar: /images/friends/godbmw.jpeg
+#     site: https://www.bonobono.net/
+#     meta: 主题作者
+#     show: false
