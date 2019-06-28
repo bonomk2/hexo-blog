@@ -6,7 +6,7 @@
     let title = page.title || '';
 
     if (is_archive()){
-      title = '归档';
+      title = 'Archives';
 
       if (is_month()){
         title += ': ' + page.year + '/' + page.month;
@@ -14,17 +14,17 @@
         title += ': ' + page.year;
       }
     } else if (is_category()){
-      title = '分类: ' + page.category;
+      title = 'Category: ' + page.category;
     } else if (is_tag()){
-      title = '标签: ' + page.tag;
+      title = 'Tags: ' + page.tag;
     } else if (page.type === "about") {
-      title = "关于"
+      title = "About"
     } else if (page.type === "tags") {
-      title = "标签"
+      title = "Tags"
     } else if (page.type === "categories") {
-      title = "分类"
+      title = "Category"
     } else if (page.type === "friends") {
-      title = "友链"
+      title = "Friends"
     }
 
     page.current && page.current > 1 && (title = `${title} | 第${page.current}页`);
