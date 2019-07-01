@@ -32,10 +32,10 @@
   <%- partial('components/toc') %>
   <% if(theme.copyright.enable) { %>
     <aside class="passage-copyright">
-      <div>本文作者: <%- theme.copyright.author || theme.author || config.author %></div>
+      <!-- <div>本文作者: <%- theme.copyright.author || theme.author || config.author %></div> -->
       <% if(theme.copyright.show_link) { %>
         <div>
-          原文链接: 
+          원문경로: 
           <a href="<% url_for(page.path)%>" target="_blank"><%- page.permalink %></a>
         </div>
       <% } %>

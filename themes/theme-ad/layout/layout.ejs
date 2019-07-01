@@ -7,8 +7,8 @@
       <%- body %>
     </main>
     <% if(
-      (theme.leancloud.comment || theme.disqus.enable) &&
-      (is_post() || page.type === 'about' || page.type === 'friends')
+      (theme.leancloud.comment || theme.disqus.enable || theme.livere.enable) &&
+      (is_post() || page.layout === 'about')
     ){ %>
       <%- partial('components/comment') %>
     <% } %>

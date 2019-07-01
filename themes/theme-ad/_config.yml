@@ -31,10 +31,10 @@ highlight_theme: "night eighties"
 mathjax: true
 
 copyright:
-  enable: false
+  enable: true
   author: "bonomk2"
   show_link: true
-  more: '© All rights reserved.'
+  more: '퍼가는건 상관 없습니다만 출처는 반드시 명기하여 주십시오.'
 
 # time format：YYYY-MM-DD
 start_time: "2019-06-28"
@@ -54,8 +54,12 @@ welcome:
 
 # Need to ensure that leancloud.comment is false
 disqus: 
-  enable: true
+  enable: false
   id: bonobono-net
+
+livere:
+  enable: true
+  id: MTAyMC80NTAxMS8yMTUzMQ==
 
 # Need to ensure that leancloud.count is false
 busuanzi: false
@@ -95,7 +99,7 @@ analytics:
 # Please decide whether to replace it with domestic CDN according to the situation.
 cdn: 
   # leancloud: "//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"
-  mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
+  # mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   # valine: "//unpkg.com/valine/dist/Valine.min.js"
   # busuanzi: "//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
   font_awesome: "//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -116,6 +120,9 @@ nav:
   -
     name: "Tags"
     path: "/tags/"
+  -
+    name: "Guestbook"
+    path: "/guestbook/"
 
 footer:
   - 

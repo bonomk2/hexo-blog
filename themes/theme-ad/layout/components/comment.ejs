@@ -15,6 +15,8 @@
     plateform = 'leancloud'
   } else if (theme.disqus.enable) {
     plateform = 'disqus'
+  } else if (theme.livere.enable) {
+    plateform = 'livere'
   }
 %>
 <div class="site-comment-contanier" data-plateform="<%= plateform %>">
@@ -40,5 +42,21 @@
         (d.head || d.body).appendChild(s);
       })();
     </script>
+  <% } else if(theme.livere.enable){ %>
+  <div id="lv-container" data-id="city" data-uid="<%= theme.livere.id %>">
+    <script type="text/javascript">
+    (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') { return; }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+  <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+  </div>
   <% } %>
 </div>

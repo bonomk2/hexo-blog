@@ -39,6 +39,9 @@
     } else if (theme.disqus.enable) {
       comments.enable = true;
       comments.link = '#disqus_thread';
+    } else if (theme.livere.enable) {
+      comments.enable = true;
+      comments.link = '#lv-container';
     }
   }
 %>
@@ -56,7 +59,7 @@
     <a href="javascript:void(0);" data-enable="<%- catalog %>" id="site-toc-show-btn">
       <i class="fa fa-bars"></i>
     </a>
-    <% if(theme.leancloud.comment || theme.disqus.enable) { %>
+    <% if(theme.leancloud.comment || theme.disqus.enable || theme.livere.enable) { %>
       <a href="<%- comments.enable ? comments.link : 'javascript:void(0);' %>" data-enable="<%- comments.enable %>">
         <i class="fa fa-commenting"></i>
       </a>
