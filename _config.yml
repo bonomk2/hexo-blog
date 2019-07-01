@@ -81,3 +81,15 @@ theme: theme-ad
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Rss feed
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 0
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon:

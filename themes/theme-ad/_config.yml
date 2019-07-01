@@ -28,7 +28,7 @@ custom_scripts:
 highlight_theme: "night eighties"
 
 # Turn on math formula rendering
-mathjax: true
+mathjax: false
 
 copyright:
   enable: true
@@ -67,7 +67,6 @@ busuanzi: false
 # Store sha256 encrypted password
 # Have read access to all locked articles
 passwords: 
-  - 7E1F6807FAA6B2C55B7AC75C559A5A12587A028DD9F363891FBD3595347FC40A
 
 share:
   twitter: false

@@ -7,6 +7,7 @@ categories:
 tags:
 - test
 - hexo
+comments: false
 ---
 
 # 안녕 hexo
