@@ -93,3 +93,8 @@ feed:
   content_limit_delim: ' '
   order_by: -date
   icon:
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
