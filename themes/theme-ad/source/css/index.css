@@ -482,7 +482,7 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 40%;
   height: 100%;
   transition: all .3s ease;
   z-index: -1; }
@@ -526,7 +526,7 @@ main {
   .home-article[data-cover=false] {
     padding-right: 0; }
   .home-article[data-cover=true] {
-    padding-right: 50%; }
+    padding-right: 40%; }
     @media screen and (max-width: 1024px) {
       .home-article[data-cover=true] {
         padding: 0; } }
