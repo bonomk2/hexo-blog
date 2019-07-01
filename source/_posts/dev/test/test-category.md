@@ -2,8 +2,7 @@
 title: Test Category
 date: 2017-03-10 00:56:38
 categories:
-- test
-- hexo
+- dev
 tags:
 - test
 - hexo

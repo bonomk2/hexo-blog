@@ -2,8 +2,7 @@
 title: 테스트 포스트
 date: 2017-03-08 15:30:33
 categories:
-- test
-- hexo
+- dev
 tags:
 - test
 - hexo

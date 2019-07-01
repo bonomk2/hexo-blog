@@ -2,8 +2,7 @@
 title: Test Tag Cloud
 date: 2017-03-08 17:47:00
 categories:
-- test
-- hexo
+- dev
 tags:
 - test
 - hexo

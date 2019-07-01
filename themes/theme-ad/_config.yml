@@ -128,11 +128,14 @@ footer:
     title: "Links"
     children:
       - 
-        name: "instagram"
+        name: "Instagram"
         path: "https://www.instagram.com/bonomk2/"
       - 
-        name: "facebook"
+        name: "Facebook"
         path: "https://www.facebook.com/jjun97"
+      - 
+        name: "Rss"
+        path: "./rss.xml"
 
 footer_contact: "Email: me@bonobono.net"
 

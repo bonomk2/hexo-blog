@@ -2,8 +2,7 @@
 title: Django Tutorial 2
 date: 2017-04-06 16:00:00
 categories:
-- python
-- django
+- dev
 tags:
 - python
 - django

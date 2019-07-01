@@ -1,8 +1,7 @@
 ---
 title: Hello World2
 categories:
-- test
-- hexo
+- dev
 tags:
 - test
 - hexo

@@ -2,8 +2,7 @@
 title: Test Asset
 date: 2017-03-09 13:47:53
 categories:
-- test
-- hexo
+- dev
 tags:
 - test
 - hexo
