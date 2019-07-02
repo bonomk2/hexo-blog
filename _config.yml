@@ -4,12 +4,15 @@
 
 # Site
 title: bonomk2's blog
-subtitle:
-description:
+subtitle: 보노막투의 超비주류기술블로그
+description: 보노막투의 일과 관련된 내용을 담은 기술블로그입니다.
 keywords:
+  - 보노막투
+  - bonomk2
+  - 보노막투블로그
 author: bonomk2
 language: kr
-timezone:
+timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

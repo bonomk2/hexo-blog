@@ -16,7 +16,7 @@
         minute = Math.floor(((offset % 86400) % 3600) / 60),
         second = Math.floor(((offset % 86400) % 3600) % 60);
 
-      dom.innerHTML = day + "일 " + hour + "시 " + minute + "분 " + second + "초";
+      //dom.innerHTML = day + "일 " + hour + "시 " + minute + "분 " + second + "초";
     };
   }
 

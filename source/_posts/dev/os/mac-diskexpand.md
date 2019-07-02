@@ -8,7 +8,7 @@ tags:
 - vmwarefusion
 - diskutil
 - fdisk
-cover: /dev/os/Mac-DiskExpand/05.JPG
+cover: /dev/os/mac-diskexpand/05.JPG
 ---
 
 vmware fusion에서 부족한 하드디스크 크기를 늘려보자
@@ -38,14 +38,14 @@ vmware fusion에서 맥을 쓰다보면 기본 디스크 용량이 40GB로 설�
 
 youtube에 찾아보니 관련하여 diskutil 커맨드로 늘릴 수 있음을 알게 되었다는...
 ```sh
-$> diskutil list
+$ diskutil list
 ```
 
 {% asset_img 04-1.JPG %}
 
 disk0s2 파티션을 100기가로 늘린다.
 ```sh
-$> diskutil resizeVolume /dev/disk0s2 100G
+$ diskutil resizeVolume /dev/disk0s2 100G
 ```
 {% asset_img 04-2.JPG %}
 
@@ -54,4 +54,5 @@ diskutil 을 실행하여 확인해보면 아래와 같이 늘어났음을 알 �
 {% asset_img 05.JPG %}
 
 
-reference : https://www.youtube.com/watch?v=Afa-kA9bIAg
+#### reference
+  - https://www.youtube.com/watch?v=Afa-kA9bIAg
