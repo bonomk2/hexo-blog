@@ -80,7 +80,7 @@ analytics:
     enable: false
   google:
     enable: true
-    id: UA-142121646-1
+    id: UA-143091280-1
   "360":
     enable: false
     id: 
