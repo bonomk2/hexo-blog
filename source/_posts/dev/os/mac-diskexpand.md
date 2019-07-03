@@ -4,6 +4,7 @@ date: 2019-07-01 21:00:00
 categories:
 - dev
 tags:
+- os
 - mac
 - vmwarefusion
 - diskutil
