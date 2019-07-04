@@ -25,7 +25,7 @@ custom_styles:
 custom_scripts: 
 
 # Code highlighting them: normal | night | night blue | night bright | night eighties
-highlight_theme: "night bright"
+highlight_theme: "night eighties"
 
 # Turn on math formula rendering
 mathjax: false
