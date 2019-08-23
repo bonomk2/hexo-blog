@@ -34,10 +34,10 @@ copyright:
   enable: true
   author: "bonomk2"
   show_link: true
-  more: '퍼가는건 상관 없습니다만 출처는 반드시 명기하여 주십시오.'
+  more: '질문은 언제나 환영합니다.<br>퍼가는건 상관 없습니다만 출처는 반드시 명기하여 주십시오.'
 
 # time format：YYYY-MM-DD
-start_time: "2019-06-28"
+start_time: "2017-03-08"
 
 # How to open the Comments & Statistics plugin：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
 # Please apply your own appid and appkey and replace the appid and appkey below

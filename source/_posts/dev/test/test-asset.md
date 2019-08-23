@@ -7,6 +7,7 @@ tags:
 - test
 - hexo
 thumbnail: /images/test_04.jpg
+sage: true
 ---
 path : test_01
 {% asset_path test_01.jpg %}

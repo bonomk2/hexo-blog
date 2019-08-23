@@ -7,6 +7,7 @@ tags:
 - test
 - hexo
 comments: false
+sage: true
 ---
 
 # 안녕 hexo

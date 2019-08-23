@@ -6,6 +6,7 @@ categories:
 tags:
 - test
 - hexo
+sage: true
 ---
 
 # Test Category page

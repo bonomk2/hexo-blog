@@ -7,4 +7,5 @@ tags:
 - test
 - hexo
 layout: tags
+sage: true
 ---

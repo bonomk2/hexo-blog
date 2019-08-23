@@ -101,3 +101,7 @@ feed:
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
+
+# hexo-sage-posts (동작안하는듯.. sage로 넣어야 동작)
+# sage_posts:
+#   filter: hidden
