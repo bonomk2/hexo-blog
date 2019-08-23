@@ -1,19 +1,16 @@
 ---
-title: Rust 시작하기전에
+title: "[RustTutorial] 시작하기전에"
 date: 2019-07-02 11:00:00
 categories:
 - dev
 tags:
+- rusttutorial
 - rust
 ---
 
 Rust를 시작하기에 앞서......
 
 <!-- more -->
-
-#### 목차
-[0.시작하기전에](../rust-start/)
-[1.시작하기](.)
 
 ## 왜 나는 Rust를 봐야하는가..
 
@@ -44,7 +41,18 @@ qt가 정말 답인건가.. -_-;;;;;;;;;;;;;
 
 여튼 윈도우에 종속적이지 않은 것만으로도 큰 도움은 될듯하다..
 
+## 참고사항
+- 나의 수준이 바닥이지만 그래도 어느정도 개발을 했던 분들을 대상으로 한다.
+- 순서는 [Rust 공식 문서 한글 번역본](https://rinthel.github.io/rust-lang-book-ko/)을 기준으로 따라가려 한다.
+- 기본 개발환경은 Win10을 기준으로 한다. 다른 OS에 해당되는 부분이 혹여 있다면 우분투로 할 생각이다.
+- 작성한 샘플은 [github](https://github.com/bonomk2/rust-sample)에 올려둘 예정이다.
+- 내가 봐서 별 내용이 아닌건 임의로 넘어갈 수 있다.
+- 내가 봐서 추가로 적고 싶은 내용이 있으면 임의로 적을 수 있다.
+- 의지가 떨어지면 가다가 멈출 수 있다.(왠만하면 끝까지는 갈거다)
 
-<!-- reference: https://rinthel.github.io/rust-lang-book-ko/ch01-02-hello-world.html
-
-sample: https://github.com/bonomk2/rust-sample -->
+> **Sample Code**
+> - https://github.com/bonomk2/rust-sample/
+> **Related Posts**
+> [0. 시작하기전에](../rusttutorial-0-start/)
+> [1. Hello World](../rusttutorial-1-env/)
+> [2. 추리게임 만들기](../rusttutorial-2-game-tutorial/)

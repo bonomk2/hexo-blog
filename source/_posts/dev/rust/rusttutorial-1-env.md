@@ -1,9 +1,10 @@
 ---
-title: Rust 시작하기
+title: "[RustTutorial] Hello World"
 date: 2019-07-02 15:00:00
 categories:
 - dev
 tags:
+- rusttutorial
 - rust
 - cargo
 - install
@@ -14,16 +15,8 @@ cover: /dev/rust/rust-env/01.JPG
 Rust를 실행하기 위한 환경을 구성하고 Hello World를 만들어보자.
 
 <!-- more -->
-우선 사무실에서는 윈도우 환경에서 작업하므로 대부분 윈도우가 기준이 되며, 우분투등의 다른 OS에만 해당하는 내용은 필요에 따라 추가 할 수 있다.
-이후 진도는 [공식 가이드 문서](https://doc.rust-lang.org/stable/book/index.html)를 기준으로 진행할 예정이다. 중간중간 필요한 경우 내맘대로 내용 추가는 있다.
-
 Rust를 사용하기 위한 환경을 구성하고 hello world를 출력해보자...
 에디터기는 IntelliJ가 갑이라고 하는데, 나는 Code를 사랑하니까 어떻게는 Code에서 작업하련다.
-
-
-#### 목차
-[0.시작하기전에](../rust-start/)
-[1.시작하기](.)
 
 ## 설치
 
@@ -169,9 +162,13 @@ Ctrl+Shift+P를 클릭후에
 Run Task를 선택하면 hello cargo build 라는 항목이 추가된것이 보일것이다.
 {% asset_img 05.PNG %}
 
-
-
-#### reference
-  - rust stable guide book : https://doc.rust-lang.org/stable/book/index.html
-  - rust getting started : https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html
-  - visual studio code setting : https://yonomi.tistory.com/387
+> **Reference**
+> - rust stable guide book : https://doc.rust-lang.org/stable/book/index.html
+> - rust getting started : https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html
+> - visual studio code setting : https://yonomi.tistory.com/387
+> **Sample Code**
+> - https://github.com/bonomk2/rust-sample/
+> **Related Posts**
+> [0. 시작하기전에](../rusttutorial-0-start/)
+> [1. Hello World](../rusttutorial-1-env/)
+> [2. 추리게임 만들기](../rusttutorial-2-game-tutorial/)
