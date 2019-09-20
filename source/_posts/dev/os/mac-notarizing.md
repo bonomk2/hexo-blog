@@ -7,6 +7,7 @@ tags:
 - os
 - mac
 - xcode
+- codesign
 - notarizing
 - staple
 cover: /dev/os/mac-notarizing/01.png
