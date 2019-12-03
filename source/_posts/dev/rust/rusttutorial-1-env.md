@@ -9,7 +9,7 @@ tags:
 - cargo
 - install
 - enviroment
-cover: /dev/rust/rust-env/01.JPG
+cover: /dev/rust/rusttutorial-1-env/01.JPG
 ---
 
 Rust를 실행하기 위한 환경을 구성하고 Hello World를 만들어보자.
