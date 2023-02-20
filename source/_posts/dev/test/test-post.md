@@ -139,13 +139,10 @@ testA('aaaa');
 {% iframe https://www.bonobono.net 100% 300 %}
 
 # YouTube
-
 {% youtube AOMBPyOlFSE %}
 
 # vimeo
-
 {% vimeo 167976188 %}
-
 
 # post 삽입
 {% post_link dev/test/hello-world 'hello world' %}

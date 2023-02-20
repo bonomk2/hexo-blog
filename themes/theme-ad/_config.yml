@@ -58,7 +58,7 @@ disqus:
   id: bonobono-net
 
 livere:
-  enable: true
+  enable: false
   id: MTAyMC80NTAxMS8yMTUzMQ==
 
 # Need to ensure that leancloud.count is false
