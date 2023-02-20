@@ -146,8 +146,9 @@ testA('aaaa');
 
 {% vimeo 167976188 %}
 
+
 # post 삽입
-{% post_link hello-world 헬로월드 %}
+{% post_link dev/test/hello-world 'hello world' %}
 
 # raw
 {% raw %}
