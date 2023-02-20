@@ -135,7 +135,7 @@ footer:
         path: "https://www.facebook.com/jjun97"
       - 
         name: "Rss"
-        path: "./rss.xml"
+        path: "/rss.xml"
 
 footer_contact: "Email: me@bonobono.net"
 
