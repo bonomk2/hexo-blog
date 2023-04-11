@@ -54,11 +54,11 @@ welcome:
 
 # Need to ensure that leancloud.comment is false
 disqus: 
-  enable: false
+  enable: true
   id: bonobono-net
 
 livere:
-  enable: true
+  enable: false
   id: MTAyMC80NTAxMS8yMTUzMQ==
 
 # Need to ensure that leancloud.count is false
