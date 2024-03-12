@@ -129,20 +129,8 @@ function testA(aa){
 testA('aaaa');
 ```
 
-# jsFiddle
-{% jsfiddle pgtkkLsc html,result %}
-
-# Gist
-{% gist 9a4aded78853db541ca2510d8d41e17f %}
-
 # iframe
 {% iframe https://www.bonobono.net 100% 300 %}
-
-# YouTube
-{% youtube AOMBPyOlFSE %}
-
-# vimeo
-{% vimeo 167976188 %}
 
 # post 삽입
 {% post_link dev/test/hello-world 'hello world' %}
