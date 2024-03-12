@@ -42,7 +42,7 @@ hexo도 이미 버전이 7.1.1이 릴리즈 되었더라.. (난 3.9...)
   + ~인프라 구축하기: OCI~
   + ~테스트 도메인 이전~
   + ~테스트 SSL 인증서 발급: certbot~
-+ hexo 업그레이드
++ ~hexo 업그레이드~
 + CI/CD
   + build 어디서??
   + deploy 어떻게??
@@ -53,7 +53,6 @@ hexo도 이미 버전이 7.1.1이 릴리즈 되었더라.. (난 3.9...)
 + 서버 이전
   + 도메인 이전
   + netlify close
-
 
 > **Related Posts**
 > [0. 홈페이지 개선하기](../renewal-homepage/)
