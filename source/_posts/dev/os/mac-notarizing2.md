@@ -113,7 +113,10 @@ Mac App 개발을 공부 해야하는건가 싶은 생각이 자꾸만 들지만
 
 적고보니 한풀이가 절반이네.. ㅋㅋㅋㅋ
 
-#### reference
-  - https://developer.apple.com/documentation/security/hardened_runtime_entitlements
-  - https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_security_cs_disable-library-validation
+> **reference**
+> - https://developer.apple.com/documentation/security/hardened_runtime_entitlements
+> - https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_security_cs_disable-library-validation
 
+> **Related Posts**
+> [1. 코드서명, 공증하기](../mac-notarizing/)
+> [2. 3rd파티 라이브러리 포함한 공증](../mac-notarizing2/)
