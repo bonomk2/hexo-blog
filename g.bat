@@ -1,2 +1,2 @@
 @echo off
-hexo g
+.\node_modules\.bin\hexo g

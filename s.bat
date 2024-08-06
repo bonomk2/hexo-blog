@@ -1,2 +1,2 @@
 @echo off
-hexo s
+.\node_modules\.bin\hexo s

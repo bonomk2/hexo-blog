@@ -1,2 +1,2 @@
 @echo off
-hexo clean
+.\node_modules\.bin\hexo clean
